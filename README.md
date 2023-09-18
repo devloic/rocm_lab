@@ -1,3 +1,4 @@
+trying to add 5.6 by default, mix several ai apps and add new ones
 
 ![badge-torch-gfx1100](https://shields.io/github/actions/workflow/status/evshiron/rocm_lab/build-rocm5.5-torch2.0-wheels.yaml?label=torch2.0) ![badge-tensorflow-gfx1100](https://shields.io/github/actions/workflow/status/evshiron/rocm_lab/build-rocm5.5-tensorflow2.10-wheels.yaml?label=tensorflow2.10) ![badge-torchvision-gfx1100](https://shields.io/github/actions/workflow/status/evshiron/rocm_lab/build-rocm5.5-torchvision0.15-wheels.yaml?label=torchvision0.15) ![badge-torchaudio-gfx1100](https://shields.io/github/actions/workflow/status/evshiron/rocm_lab/build-rocm5.5-torchaudio2.0-wheels.yaml?label=torchaudio2.0) ![rocm_lab-downloads](https://shields.io/github/downloads/evshiron/rocm_lab/total)
 
