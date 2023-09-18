@@ -1,0 +1,10 @@
+FROM ghcr.io/evshiron/rocm_lab:rocm5.6-ub22.04-base
+
+SHELL ["/bin/bash", "-c"]
+WORKDIR /root
+
+RUN apt update && apt install -y curl python3-pip python3-venv && python3 -m venv venv
+RUN source venv/bin/activate \
+  && pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm5.6
+
+CMD bash
