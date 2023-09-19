@@ -1,4 +1,4 @@
-FROM ghcr.io/evshiron/rocm_lab:rocm5.6-ub22.04-torch2.2.0
+FROM rocm5.6-ub22.04-torch2.2.0
 
 SHELL ["/bin/bash", "-c"]
 WORKDIR /root
